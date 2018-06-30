@@ -18,21 +18,24 @@
         android:id="@+id/tvTitle"
         android:layout_width="294dp"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/lvPosterImage"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/lvPosterImage"
+        android:fontFamily="casual"
         android:text="Movie Title"
-        android:textAppearance="@android:style/TextAppearance.Large" />
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="294dp"
         android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/tvTitle"
         android:layout_toEndOf="@+id/lvPosterImage"
         android:layout_toRightOf="@+id/lvPosterImage"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:fontFamily="casual"
         android:text="Movie Overview and Synopsis" />
 </RelativeLayout>
